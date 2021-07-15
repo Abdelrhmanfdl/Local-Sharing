@@ -3,6 +3,10 @@ table {
   width: 50%;
 }
 
+th {
+  background-image: linear-gradient(to bottom, white, #8080f060);
+}
+
 th,
 td {
   border: 1px solid rgba(0, 0, 0, 0.26);
