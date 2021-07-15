@@ -1,0 +1,35 @@
+table {
+  margin: 40px auto auto auto;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  border-radius: 8px 8px 8px 8px;
+}
+
+td {
+  min-height: 90px;
+  padding: 15px;
+
+  color: #006f;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:link {
+  text-decoration: dashed;
+  color: blue;
+}
+a:visited {
+  color: brown;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    width: 96%;
+  }
+}
